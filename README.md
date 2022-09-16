@@ -46,6 +46,7 @@ python_packages:
 ```
 
   - Créez le fichier pronote.yaml dans \config\appdaemon\apps
+  
  ``` yaml
 ---
 pronote:

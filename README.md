@@ -46,12 +46,11 @@ python_packages:
 ```
 
   - Créez le fichier pronote.yaml dans \config\appdaemon\apps
-  
  ``` yaml
 ---
 pronote:
-  module: pronote
-  class: get_data
+   module: pronote
+   class: get_data
 ```
 
   - Enfin créez le fichier pronote.py dans \config\appdaemon\apps ainsi :
@@ -103,6 +102,7 @@ class get_data(hass.Hass):
     
     #Copier la suite du script pronote.py à partir de la définition des variables. Attention à l'indentation.
     #Variables a remplacer (ou laisser comme ça pour tester la démo).....
+    #Il faut supprimer les () à la fin de la ligne currentperiod.absence
     
     
     
